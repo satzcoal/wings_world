@@ -7,6 +7,7 @@ gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 
 gem 'devise'
+gem 'slim'
 
 
 # Use Uglifier as compressor for JavaScript assets
@@ -42,8 +43,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'mina'
-  gem 'mina-puma'
+  gem 'mina', require: false
+  gem 'mina-puma', require: false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
