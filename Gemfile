@@ -5,9 +5,12 @@ gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 gem 'mysql2', '>= 0.3.18', '< 0.5'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
+gem 'bootstrap-sass'
+gem 'slim'
 
 gem 'devise'
-gem 'slim'
+
+
 
 
 # Use Uglifier as compressor for JavaScript assets
